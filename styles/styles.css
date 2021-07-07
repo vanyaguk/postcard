@@ -1,0 +1,101 @@
+html {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightslategray;
+}
+
+.background {
+    width: 900px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 33px 5px rgba(0,0,0,0.5);
+    background: repeating-linear-gradient(
+  45deg,
+  #534f81,
+  #534f81 20px,
+  white 20px,
+  white 40px,
+  #d23222 40px,
+  #d23222 60px,
+  white 60px,
+  white 80px
+);
+}
+
+.postcard {
+    width: 850px;
+    height: 550px;
+    background-color: white;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.header h1 {
+    align-self: center;
+}
+
+/* ADD A VERTICAL LINE */
+
+.vl {
+  border-left: 2px solid black;
+  height: 250px;
+}
+
+.middle {
+    display: flex;
+justify-content: space-around;
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    color: #185ADB;
+}
+.leftSide, .rightSide {
+    width: 50%;
+    line-height: 30px;
+}
+.rightSide p {
+    border-bottom: 2px solid black;
+    padding: 3px;
+}   
+.leftSide {
+    
+}
+.rightSide {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 27px;
+}
+.middle p {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0;
+
+}
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 25px;
+}
+.sign {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.sign p {
+    font-family: 'Indie Flower', cursive;
+    font-size: 32px;
+    border-bottom: 2px solid black;
+    text-align: center;
+    color: #185ADB;
+    margin: 0;
+}
+.sign h3 {
+    margin: 0;
+}
+/* font-family: 'Indie Flower', cursive; */
